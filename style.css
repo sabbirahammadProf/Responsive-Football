@@ -1,0 +1,92 @@
+/* google font link import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Common CSS */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Reusable CSS */
+.container {
+    width: 1160px;
+}
+
+h1 {
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.half-section {
+    width: 50%;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* ----------------------
+   Header area design
+---------------------- */
+
+/* Navigation bar design */
+header {
+    background-color: #2D25A0;
+    height: 100vh;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+nav .navbar-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1160px;
+}
+
+.navbar-part-one ul {
+    padding: 0;
+}
+
+.navbar-part-one ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar-part-one ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-part-two ul li {
+    list-style: none;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #ffffff;
+    padding: 10px 22px;
+}
+
+.plt-5 {
+    padding: 0 5px;
+}
+
+/* Hero area design */
+.hero-area {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-banner img {
+    width: 100%;
+}

@@ -14,3 +14,5 @@
 14. Right tag and font awesome
 15. Using flex and grid
 16. Adding players joursey buying cart and Football news area {For extra marks}
+17. Fontawesome and google fonts
+18. Using text not lorem ipsum
