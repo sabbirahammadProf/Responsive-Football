@@ -1,0 +1,16 @@
+1. Navbar optional
+2. Hero area style same
+3. Icon
+4. Hero area hover
+5. Players area card 9 required
+6. Hilit optional
+7. Footer copyriht symbol
+8. Footer same to same
+9. Responsive for mobile devices all of these
+10. Commenting in codes
+11. Organized code 
+12. Text size
+13. Add extra two parts for 10 marks up footer
+14. Right tag and font awesome
+15. Using flex and grid
+16. Adding players joursey buying cart and Football news area {For extra marks}
