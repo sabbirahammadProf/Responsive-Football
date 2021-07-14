@@ -10,11 +10,18 @@ body {
 /* Reusable CSS */
 .container {
     width: 1160px;
+    margin: 0 auto;
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 60px;
     color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 45px;
 }
 
 .half-section {
@@ -23,6 +30,7 @@ h1 {
 
 .d-flex {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -77,6 +85,10 @@ nav .navbar-container {
     padding: 10px 22px;
 }
 
+.link-button:hover {
+    background: linear-gradient(270deg, #b1104b, #9b3f61);
+}
+
 .plt-5 {
     padding: 0 5px;
 }
@@ -85,8 +97,77 @@ nav .navbar-container {
 .hero-area {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: calc(100vh - 5em);
 }
 
 .hero-banner img {
+    width: 90%;
+}
+
+/* Players area design */
+.players {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.player {
+    padding: 15px;
+    box-shadow: 1px 1px 45px #0000002a;
+    border-radius: 4px;
+}
+
+.player img {
     width: 100%;
+}
+
+.player h3 {
+    font-size: 22px;
+}
+
+/* Highlights area design */
+.highlights-area {
+    margin: 150px auto;
+}
+
+.highlights-part-one p {
+    margin-bottom: 45px;
+    padding-right: 50px;
+}
+
+.highlights-part-two img {
+    width: 100%;
+    margin-top: 35px;
+}
+
+/* Footer Design */
+footer {
+    text-align: center;
+}
+
+footer img {
+    width: 30%;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 30px 10px;
+}
+
+footer ul li a {
+    height: 32px;
+    width: 32px;
+    background-color: rgba(128, 128, 128, 0.171);
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+
+footer ul li i {
+    color: #969BAB;
 }
