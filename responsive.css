@@ -1,3 +1,4 @@
+/* Responsive for mobile */
 @media only screen and (max-width: 600px) and (min-width: 320px) {
 
     /* Resuable Css */
@@ -29,11 +30,6 @@
 
     .navbar-toggler {
         display: block;
-    }
-
-    .fa-bars {
-        color: #fff;
-        font-size: 22px;
     }
 
     .hero-text {
@@ -77,8 +73,68 @@
         width: 90%;
     }
 
+    /* News area design */
+    .recent-news {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     /* Footer */
     footer img {
         width: 70%;
+    }
+}
+
+/* Responsive for tab */
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+    /* Resuable Css */
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    /* header nav */
+    nav .navbar-container {
+        width: 90%;
+    }
+
+    .navbar-part-one {
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    /* Players area */
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Higlights area */
+    .highlights-area.d-flex {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .highlights-part-one {
+        width: 90%;
+    }
+
+    .highlights-part-two {
+        width: 85%;
+        margin-top: 1em;
+    }
+
+    /* News area design */
+    .recent-news {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
