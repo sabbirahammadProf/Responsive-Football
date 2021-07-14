@@ -1,0 +1,84 @@
+@media only screen and (max-width: 600px) and (min-width: 320px) {
+
+    /* Resuable Css */
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    /* Header */
+    header {
+        width: 100%;
+    }
+
+    /* header nav */
+    nav .navbar-container {
+        width: 90%;
+    }
+
+    .navbar-part-one {
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .fa-bars {
+        color: #fff;
+        font-size: 22px;
+    }
+
+    .hero-text {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    /* Hero area */
+
+    .hero-area .d-flex {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .hero-banner {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .hero-banner img {
+        width: 100%;
+    }
+
+    /* Players area */
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Higlights area */
+    .highlights-area.d-flex {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .highlights-part-one {
+        width: 90%;
+    }
+
+    .highlights-part-two {
+        width: 90%;
+    }
+
+    /* Footer */
+    footer img {
+        width: 70%;
+    }
+}
